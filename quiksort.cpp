@@ -1,14 +1,14 @@
   #include<iostream>
   using namespace std;
   int solve(int arr[], int low, int high){
-     int p=arr[low];
+     int pivot=arr[low];
      int i=low;
      int j= high;
      while(i<j){
-        while(arr[i]<=p && i<high){
+        while(arr[i]<=pivot && i<high){
             i++;
         }
-        while(arr[j]>p && j>low){
+        while(arr[j]>pivot && j>low){
             j--;
         }
         if(i<j){
@@ -34,12 +34,12 @@
      int arr[n];
    cout<<"enter the array :"<<endl;
    int low =0;
-   int high=n;
+   int high=n-1;
    for(int i=0; i<n; i++){
        cin>>arr[i];
    }
    quicksort(arr,low,high);
-    for (int i = 0; i < n-1; i++) {
+    for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
    return 0;
