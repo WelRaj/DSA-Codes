@@ -10,7 +10,7 @@ using namespace std;
            };
 int main(){
     vector<int>arr={2,3,4,6,};
-    node *y=new node(arr[3],nullptr);
+    node *y=new node(arr[0],nullptr);
     cout<<y->data<<endl;
     return 0;
 }
