@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 using namespace std;
 
 struct node {
@@ -104,4 +104,4 @@ int main() {
         temp = temp->next;
     }
     return 0;
-}
+}                    
