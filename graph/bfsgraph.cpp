@@ -43,8 +43,5 @@ int main(){
     }
 
       return 0;
-      vector<vector<int>> arr;
-      for(auto it:arr){
-        cout<<it      }
 
 }
